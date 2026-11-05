@@ -1,0 +1,35 @@
+{
+  "name": "macrograce-intros",
+  "owner": {
+    "name": "MacroGrace Systems",
+    "url": "https://macrogracesystems.com"
+  },
+  "metadata": {
+    "description": "Intros that turn any static site into a presentation.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "intros-root",
+      "description": "Inspects a static site and picks an intro",
+      "source": "./",
+      "strict": false,
+      "author": {
+        "name": "Marc Dandoy"
+      },
+      "license": "MIT",
+      "skills": ["./skills/intros-root"]
+    },
+    {
+      "name": "build-intro-agentic",
+      "description": "Start screen, layout scan and cursor-agent build of the real page",
+      "source": "./",
+      "strict": false,
+      "author": {
+        "name": "Marc Dandoy"
+      },
+      "license": "MIT",
+      "skills": ["./skills/build-intro-agentic"]
+    }
+  ]
+}
