@@ -5,6 +5,7 @@ license: MIT
 metadata:
   author: Your Name
   version: "0.1.0"
+  internal: true
 ---
 
 # Build Intro: Example

@@ -5,7 +5,7 @@ An intro is one skill. It runs on the site's real content, ends on the site as i
 ## Add an intro
 
 1. Copy `template/SKILL.md` to `skills/<verb-noun>/SKILL.md`.
-2. Set `name` to the folder name. Start `description` with "Use when".
+2. Set `name` to the folder name. Start `description` with "Use when". Delete `internal: true`.
 3. Put runtime files in `assets/` inside the skill and design references in `references/`.
 4. Add a plugin entry to `.claude-plugin/marketplace.json`.
 5. Add the intro to the catalog in `skills/intros-root/SKILL.md` and the table in `README.md`.
